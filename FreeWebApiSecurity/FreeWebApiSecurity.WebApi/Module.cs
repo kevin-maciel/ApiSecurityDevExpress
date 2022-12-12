@@ -22,6 +22,7 @@ public sealed class FreeWebApiSecurityModule : ModuleBase {
 		RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Security.SecurityModule));
 		RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule));
 		DevExpress.ExpressApp.Security.SecurityModule.UsedExportedTypes = DevExpress.Persistent.Base.UsedExportedTypes.Custom;
+        RequiredModuleTypes.Add(typeof(FreeWebApiSecurity.FreeWebApiSecurityModule));
     }
     public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
         ModuleUpdater updater = new DatabaseUpdate.Updater(objectSpace, versionFromDB);

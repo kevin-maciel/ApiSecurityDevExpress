@@ -252,6 +252,26 @@
           "DevExpress.Data": "[22.1.5]"
         }
       },
+      "DevExpress.ExpressApp.ConditionalAppearance/22.1.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[22.1.5]",
+          "DevExpress.ExpressApp": "[22.1.5]",
+          "DevExpress.Persistent.Base": "[22.1.5]",
+          "NETStandard.Library": "2.0.3",
+          "System.Drawing.Common": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DevExpress.ExpressApp.EFCore/22.1.5": {
         "type": "package",
         "dependencies": {
@@ -336,6 +356,26 @@
         },
         "runtime": {
           "lib/net6.0/DevExpress.ExpressApp.Security.AspNetCore.v22.1.dll": {}
+        }
+      },
+      "DevExpress.ExpressApp.Validation/22.1.5": {
+        "type": "package",
+        "dependencies": {
+          "DevExpress.Data": "[22.1.5]",
+          "DevExpress.ExpressApp": "[22.1.5]",
+          "DevExpress.Persistent.Base": "[22.1.5]",
+          "NETStandard.Library": "2.0.3",
+          "System.Drawing.Common": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v22.1.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v22.1.dll": {
+            "related": ".xml"
+          }
         }
       },
       "DevExpress.ExpressApp.WebApi/22.1.5": {
@@ -3385,6 +3425,27 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "FreeWebApiSecurity.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevExpress.ExpressApp": "22.1.5",
+          "DevExpress.ExpressApp.CodeAnalysis": "22.1.5",
+          "DevExpress.ExpressApp.ConditionalAppearance": "22.1.5",
+          "DevExpress.ExpressApp.EFCore": "22.1.5",
+          "DevExpress.ExpressApp.Validation": "22.1.5",
+          "DevExpress.Persistent.Base": "22.1.5",
+          "DevExpress.Persistent.BaseImpl.EFCore": "22.1.5",
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+        },
+        "compile": {
+          "bin/placeholder/FreeWebApiSecurity.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeWebApiSecurity.Module.dll": {}
+        }
       }
     }
   },
@@ -3589,6 +3650,21 @@
         "tools/uninstall.ps1"
       ]
     },
+    "DevExpress.ExpressApp.ConditionalAppearance/22.1.5": {
+      "sha512": "1Udo5v9KpstCZB5nosKi6TaMfJMBhCb8xijUOToqOHLS33sGKwVjL+CL6+kGDYI6pkeG5MmGaJs+/Ul6VY+nsQ==",
+      "type": "package",
+      "path": "devexpress.expressapp.conditionalappearance/22.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.conditionalappearance.22.1.5.nupkg.sha512",
+        "devexpress.expressapp.conditionalappearance.nuspec",
+        "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll",
+        "lib/net452/DevExpress.ExpressApp.ConditionalAppearance.v22.1.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v22.1.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.ConditionalAppearance.v22.1.xml"
+      ]
+    },
     "DevExpress.ExpressApp.EFCore/22.1.5": {
       "sha512": "sGU5N1HNKFITISx6LkIMAmMNkRU0vDCkPwKaH39qQ/ttICku4mxBCfIQ98O5WZy1l5zj2lSz5x7mCLRRdCzpWQ==",
       "type": "package",
@@ -3643,6 +3719,21 @@
         "devexpress.expressapp.security.aspnetcore.22.1.5.nupkg.sha512",
         "devexpress.expressapp.security.aspnetcore.nuspec",
         "lib/net6.0/DevExpress.ExpressApp.Security.AspNetCore.v22.1.dll"
+      ]
+    },
+    "DevExpress.ExpressApp.Validation/22.1.5": {
+      "sha512": "9wF+/QutrdHH6/tehM/pXl+x011lMHL4ZOnJrSiG374ghydCI+jbupORF2T6AUhXqbSVT3mOuEID+KL4owXltg==",
+      "type": "package",
+      "path": "devexpress.expressapp.validation/22.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devexpress.expressapp.validation.22.1.5.nupkg.sha512",
+        "devexpress.expressapp.validation.nuspec",
+        "lib/net452/DevExpress.ExpressApp.Validation.v22.1.dll",
+        "lib/net452/DevExpress.ExpressApp.Validation.v22.1.xml",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v22.1.dll",
+        "lib/netstandard2.0/DevExpress.ExpressApp.Validation.v22.1.xml"
       ]
     },
     "DevExpress.ExpressApp.WebApi/22.1.5": {
@@ -9766,6 +9857,11 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "FreeWebApiSecurity.Module/1.0.0": {
+      "type": "project",
+      "path": "../FreeWebApiSecurity.Module/FreeWebApiSecurity.Module.csproj",
+      "msbuildProject": "../FreeWebApiSecurity.Module/FreeWebApiSecurity.Module.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9773,6 +9869,7 @@
       "DevExpress.ExpressApp.Api.EFCore.All >= 22.1.5",
       "DevExpress.ExpressApp.CodeAnalysis >= 22.1.5",
       "DevExpress.ExpressApp.Objects >= 22.1.5",
+      "FreeWebApiSecurity.Module >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.5",
@@ -9821,7 +9918,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Repositorios\\DevExpress\\ApiSecurityDevExpress\\FreeWebApiSecurity\\FreeWebApiSecurity.Module\\FreeWebApiSecurity.Module.csproj": {
+              "projectPath": "D:\\Repositorios\\DevExpress\\ApiSecurityDevExpress\\FreeWebApiSecurity\\FreeWebApiSecurity.Module\\FreeWebApiSecurity.Module.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

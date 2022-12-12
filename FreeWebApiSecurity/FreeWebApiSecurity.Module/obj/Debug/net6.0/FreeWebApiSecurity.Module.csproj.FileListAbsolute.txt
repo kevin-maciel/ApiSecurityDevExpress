@@ -1,0 +1,12 @@
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\bin\Debug\net6.0\FreeWebApiSecurity.Module.deps.json
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\bin\Debug\net6.0\FreeWebApiSecurity.Module.dll
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\bin\Debug\net6.0\FreeWebApiSecurity.Module.pdb
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\FreeWebApiSecurity.Module.csproj.AssemblyReference.cache
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\FreeWebApiSecurity.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\FreeWebApiSecurity.Module.AssemblyInfoInputs.cache
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\FreeWebApiSecurity.Module.AssemblyInfo.cs
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\FreeWebApiSecurity.Module.csproj.CoreCompileInputs.cache
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\FreeWebApiSecurity.Module.dll
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\refint\FreeWebApiSecurity.Module.dll
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\FreeWebApiSecurity.Module.pdb
+D:\Repositorios\DevExpress\ApiSecurityDevExpress\FreeWebApiSecurity\FreeWebApiSecurity.Module\obj\Debug\net6.0\ref\FreeWebApiSecurity.Module.dll

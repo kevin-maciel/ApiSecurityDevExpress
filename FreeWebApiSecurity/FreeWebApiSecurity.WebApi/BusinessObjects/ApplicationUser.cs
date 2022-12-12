@@ -27,23 +27,3 @@ public class ApplicationUser : PermissionPolicyUser, IObjectSpaceLink, ISecurity
     }
 }
 
-public class Post : IXafEntityObject, IObjectSpaceLink
-{
-    [Key]
-    public int PostId { get; set; }
-    public string Title { get; set; }
-    public string Content { get; set; }
-    public virtual ApplicationUser Author { get; set; }
-
-    IObjectSpace IObjectSpaceLink.ObjectSpace { get; set; }
-    void IXafEntityObject.OnCreated()
-    {
-        var objectSpace = ((IObjectSpaceLink)this).ObjectSpace;
-        if (objectSpace.IsNewObject(this))
-        {
-            Author = objectSpace.FindObject<ApplicationUser>(CriteriaOperator.Parse("ID=currentUserId()"));
-        }
-    }
-    void IXafEntityObject.OnSaving() { }
-    void IXafEntityObject.OnLoaded() { }
-}

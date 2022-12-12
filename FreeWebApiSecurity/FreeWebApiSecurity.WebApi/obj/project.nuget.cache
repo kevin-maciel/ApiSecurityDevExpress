@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ks87ZuzCZYAhWAlMQIAp9G5TXASVDSifR3BPNgXd3pwGvrJqA4pf5YGKB9r7z0RJaSNUaLBQSDbfpXsuVV/Ouw==",
+  "dgSpecHash": "bmi1f4KMVgltzp/V9uv9GjJBXTZikMRzyBgNaNqC9F7wTjsX/CnJ2TT4djdPqASaQ7DTXuZoa6jTT811cN5nkg==",
   "success": true,
   "projectFilePath": "D:\\Repositorios\\DevExpress\\ApiSecurityDevExpress\\FreeWebApiSecurity\\FreeWebApiSecurity.WebApi\\FreeWebApiSecurity.WebApi.csproj",
   "expectedPackageFiles": [
@@ -17,10 +17,12 @@
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.api.efcore.all\\22.1.5\\devexpress.expressapp.api.efcore.all.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.aspnetcore\\22.1.5\\devexpress.expressapp.aspnetcore.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.codeanalysis\\22.1.5\\devexpress.expressapp.codeanalysis.22.1.5.nupkg.sha512",
+    "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.conditionalappearance\\22.1.5\\devexpress.expressapp.conditionalappearance.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.efcore\\22.1.5\\devexpress.expressapp.efcore.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.objects\\22.1.5\\devexpress.expressapp.objects.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.security\\22.1.5\\devexpress.expressapp.security.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.security.aspnetcore\\22.1.5\\devexpress.expressapp.security.aspnetcore.22.1.5.nupkg.sha512",
+    "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.validation\\22.1.5\\devexpress.expressapp.validation.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.expressapp.webapi\\22.1.5\\devexpress.expressapp.webapi.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.images\\22.1.5\\devexpress.images.22.1.5.nupkg.sha512",
     "D:\\Programas\\devexpress22\\Components\\Offline Packages\\devexpress.office.core\\22.1.5\\devexpress.office.core.22.1.5.nupkg.sha512",
